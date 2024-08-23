@@ -1,0 +1,114 @@
+/* Fonts */
+@font-face {
+    font-family: 'Figtree-ExtraBold';
+    src: url('./assets/fonts/static/Figtree-ExtraBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Figtree-SemiBold';
+    src: url('./assets/fonts/static/Figtree-SemiBold.ttf') format('truetype');
+   
+}
+
+@font-face {
+    font-family: 'Figtree-VariableFont';
+    src: url('./assets/fonts/Figtree-VariableFont_wght.ttf') format('truetype');
+}
+html{
+    background-color: rgb(244, 208, 78);
+}
+
+/* Main */
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card{
+    height:32.625rem ;
+    width: 24rem;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 8px 8px 0 0 rgb(0, 0, 0);
+}
+
+.cardImage{
+    margin: 1.5rem;
+}
+.cardImage img{
+    border-radius: 10px;
+}
+
+.cardContent{
+    margin-left: 1.5rem;
+}
+
+.category{
+    font-family: 'Figtree-ExtraBold', sans-serif;
+    color: rgb(17, 17, 17);
+    background-color: rgb(244, 208, 78);
+    padding: 0.25rem 0.75rem;
+    width: 5.125rem;
+    text-align: center;
+    margin-bottom: 0.75rem;
+    font-size: 0.875rem;
+}
+
+.publishDate{
+    font-family: 'Figtree-VariableFont',sans-serif;
+    color: rgb(17, 17, 17);
+    font-size: 0.875rem;
+    margin-bottom: 0.75rem;
+}
+
+h2{
+    font-family: 'Figtree-ExtraBold', sans-serif;
+    color: rgb(17, 17, 17);
+    font-size: 1.5rem;
+    margin-bottom: 0.75rem;
+}
+
+h2:hover{
+    color: rgb(244, 208, 78);
+}
+
+p{
+    font-family: 'Figtree-VariableFont',sans-serif;
+    color: rgb(107, 107, 107);
+    
+}
+
+.cardAuthor{
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-left: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    height: 2rem;
+}
+
+.authorAvatar img{
+    height: 2rem;
+}
+
+.authorName{
+    font-family: 'Figtree-ExtraBold', sans-serif;
+    font-size: 0.875rem;
+}
+
+
+/* Footer */
+footer {
+    font-size: 11px;
+    text-align: center;
+}
+
+footer a {
+    color: hsl(228, 45%, 44%);
+}
+
