@@ -97,8 +97,13 @@ p{
 }
 
 .authorName{
+    height: 1.31rem;
+}
+
+.authorName span{
     font-family: 'Figtree-ExtraBold', sans-serif;
     font-size: 0.875rem;
+
 }
 
 
